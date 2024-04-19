@@ -2,6 +2,15 @@ function getColor(selection)
 {
 	switch(selection){
 		// Add more options here
+		case 'rojo':
+			console.log("red");
+		break;
+		case 'verde':
+			console.log("green");
+		break;
+		case 'azul':
+			console.log("blue");
+		break;
 	    default:
 	    	return false;  //returns false because the user picked an unavailable color
 	    break;               
